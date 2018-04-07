@@ -1,2 +1,4 @@
-Git is a distributed version control system.
-Git is a free software.
+我的第一个vue作品
+也是我的毕业设计
+宿舍信息平台，学生端
+
