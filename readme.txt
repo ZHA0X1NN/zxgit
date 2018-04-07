@@ -2,3 +2,5 @@
 也是我的毕业设计
 宿舍信息平台，学生端
 
+$ npm install
+$ npm run dev
