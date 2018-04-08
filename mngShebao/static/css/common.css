@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.el-message-box {
+  width: 310px !important;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+}
+
+.h-40 {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.fx {
+  display: flex;
+}
+
+.fxC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-field {
+  display: flex;
+  height: 45px;
+}
+
+.input-table {
+  width: 300px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+}
+
+.el-input__inner {
+  padding: 0 5px !important;
+}
+
+.el-select {
+  margin-right: 5px;
+}
+
+.el-button {
+  height: 40px;
+}
+
+.el-input__icon {
+  width: 15px;
+}
+
+.green {
+  background-color: #28c528 !important;
+  color: white;
+}
+
+.blue {
+  background-color: #409EFF !important;
+  color: white;
+}
+
+.yellow {
+  background-color: #ff8d00 !important;
+  color: white;
+}
+
+.red {
+  background-color: #f94141 !important;
+  color: white;
+}
+
+.fx-tab {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fx-tab th {
+  border-bottom: 4px solid #409eff;
+  padding: 5px 0;
+}
+
+.fx-tab td {
+  padding: 5px 0;
+  border-bottom: 1px solid #409eff;
+}
+
+.input-table {
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.rankBoxs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 25px;
+}
+
+.rankBoxs li {
+  display: block;
+  margin: 20px 10px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  background-color: #dcdfe6;
+}
+
+.rankBoxs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 25px;
+}
+
+.rankBoxs li {
+  display: block;
+  margin: 20px 10px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  background-color: #dcdfe6;
+}
+
+.table-titel-max {
+  height: 80px;
+  line-height: 80px;
+  font-size: 50px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #409EFF;
+  color: white;
+}
+
+  .WEbtn {
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0;
+    border-top: 1px solid #dcdfe6;
+  }
+
+
