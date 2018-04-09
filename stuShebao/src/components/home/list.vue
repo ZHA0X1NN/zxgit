@@ -1,30 +1,43 @@
 <template>
   <div class="main">
+
     <div class="item check-item" style="backgroundImage:url('./static/img/check.png')">
       <router-link class="item-a" to="/check" style="backgroundImage:url('./static/img/list.png')">
         晚未归
         <p class="intro">你的被查寝记录</p>
       </router-link>
-
+    </div>
+    <div class="item comeBack-item" style="backgroundImage:url('./static/img/comeBack.png')">
+      <router-link class="item-a" to="/comeBack" style="backgroundImage:url('./static/img/list.png')">
+        离返校
+        <p class="intro">节假日离返校登记</p>
+      </router-link>
     </div>
     <div class="item ele-item" style="backgroundImage:url('./static/img/electric.png')">
       <router-link class="item-a" to="/ele" style="backgroundImage:url('./static/img/list.png')">
-      电费
+        电费
         <p class="intro">电费缴费 / 查看</p>
       </router-link>
 
     </div>
     <div class="item health-item" style="backgroundImage:url('./static/img/health.png')">
       <router-link class="item-a" to="/health" style="backgroundImage:url('./static/img/list.png')">
-      卫生
+        卫生
         <p class="intro">卫生记录</p>
       </router-link>
 
     </div>
     <div class="item water-item" style="backgroundImage:url('./static/img/water.png')">
       <router-link class="item-a" to="/water" style="backgroundImage:url('./static/img/list.png')">
-      送水
+        送水
         <p class="intro">饮用水服务</p>
+      </router-link>
+
+    </div>
+    <div class="item msg-item" style="backgroundImage:url('./static/img/msg.png')">
+      <router-link class="item-a" to="/msg" style="backgroundImage:url('./static/img/list.png')">
+        公告
+        <p class="intro">宿舍楼最近信息</p>
       </router-link>
 
     </div>
@@ -67,6 +80,9 @@
   .check-item {
     background-color: #fa5856;
   }
+  .comeBack-item{
+    background-color: #ff7c41;
+  }
 
   .ele-item {
     background-color: #fed700;
@@ -78,6 +94,9 @@
 
   .water-item {
     background-color: #37b9ff;
+  }
+  .msg-item{
+    background-color: #6d56fa;
   }
 
   .item-a {

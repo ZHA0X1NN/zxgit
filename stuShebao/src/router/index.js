@@ -11,6 +11,8 @@ import check from "../components/list/Check.vue"
 import water from '../components/list/Water.vue'
 import health from '../components/list/Health.vue'
 import changePW from '../components/mine/ChangePW.vue'
+import msg from '../components/list/Msg.vue'
+import comeBack from '../components/list/ComeBack.vue'
 
 Vue.use(Router)
 
@@ -94,6 +96,22 @@ export default new Router({
       path: '/health',
       name: 'health',
       component: health,
+      meta: {
+        index: 4,
+        requireAuth: true
+      }
+    }, {
+      path: '/msg',
+      name: 'msg',
+      component: msg,
+      meta: {
+        index: 4,
+        requireAuth: true
+      }
+    }, {
+      path: '/comeBack',
+      name: 'comeBack',
+      component: comeBack,
       meta: {
         index: 4,
         requireAuth: true
